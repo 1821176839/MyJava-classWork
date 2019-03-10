@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>我的故乡</title>
+	<div id="test"></div>
+	<style>
+		#header {
+			background-color:skyblue;
+			color:white;
+			text-align:center;
+			padding:5px;
+		}
+		#nav {
+			line-height:30px;
+			height:300px;
+			width:200px;
+			float:left;
+			padding:5px;	      
+		}
+		#section {
+			color:dimgray;
+			width:350px;
+			float:left;
+			padding:10px;
+		}
+		#footer {
+			background-color:skyblue;
+			color:white;
+			clear:both;
+			text-align:center;
+		   padding:5px;	 	 
+		}
+	</style>
+</head>
+<body>
+	
+	<script>
+	var myDate;
+	setInterval(function(){
+		myDate = new Date();
+		test.innerHTML = myDate.toLocaleString();
+	},1000)
+	</script>
+	
+	<div id="header">
+		<h1>家乡历史预览</h1>
+	</div>
+	<div id="nav">霞浦<br></div>
+	<div id="section">
+	<img src = "/i/picture.jpg" width="500px" height="400px" />
+	<p>
+		霞浦县（古属福宁府霞浦县）地处福建省东北部，陆地面积1489.6平方公里，海域面积29592.6平方公里。是中国东南沿海海峡西岸经济区东北翼港口城市。
+		是中华人民共和国国务院批准的沿海经济开放县，是福建最早开放的对台贸易口岸，是“中国海带之乡”、“中国紫菜之乡”，素有“闽浙要冲”、“鱼米之乡”、“海滨邹鲁”的美誊。
+	</p>
+	<p>
+		早在3000多年前，黄瓜山一带就有先民居住。
+		晋太康三年（282）建温麻县，隋开皇九年（589）撤并于原丰县。唐武德六年（623）复县，改名长溪，不久迁治连江，改称连江县。
+		长安二年（702），与连江分治，复置长溪县。唐开成年间分设感德场（后升为宁德县），宋淳祐五年（1245）分置福安县。
+		元至元二十三年（1286）升为福宁州，明洪武二年（1369）降为福宁县，成化九年（1473）复为州。清雍正十二年（1734）升为福宁府，以原福宁州地置霞浦附郭县。
+		乾隆四年（1739），分置福鼎县。至清末，素为闽东政治、军事、经济、文化中心。
+		民国2年（1913）废府留县，民国24年，以第四区分设柘洋特种区（后改为柘荣县）。中华人民共和国成立后，霞浦县建制不变，今隶属宁德市。
+	</p>
+	<a href="https://baike.baidu.com/item/霞浦县/3451541" target="_blank">霞浦县百度百科链接</a>
+	</div>
+</body>
+</html>
